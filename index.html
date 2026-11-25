@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tribute to Elon Musk</title>
+  <meta name="description" content="A tribute page about Elon Musk and the companies he built. freeCodeCamp Responsive Web Design project, redesigned.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <main id="main">
+    <header class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">A tribute</p>
+        <h1 id="title">Elon Musk</h1>
+        <p class="lede">Engineer, founder, and a person who keeps betting on very large problems: rockets that land, cars that run on electricity, and ideas that sound impossible until they are not.</p>
+        <a class="cta" href="#timeline">See the timeline <span aria-hidden="true">&darr;</span></a>
+      </div>
+      <figure id="img-div" class="portrait">
+        <img id="image" src="elon.jpg" alt="Portrait of Elon Musk at the Royal Society" width="960" height="1272">
+        <figcaption id="img-caption">Elon Musk at the Royal Society, London. Photo by Debbie Rowe, <a href="https://commons.wikimedia.org/wiki/File:Elon_Musk_Royal_Society_(crop2).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>.</figcaption>
+      </figure>
+    </header>
+
+    <section id="tribute-info" class="info">
+      <h2>Why this page exists</h2>
+      <p>I chose Elon Musk for my freeCodeCamp tribute page because his story pushed me to think bigger about what one person with a computer and a plan can try. This page is a short, honest summary of the milestones I find most interesting.</p>
+
+      <div class="stats" role="list">
+        <div class="stat" role="listitem"><strong>1971</strong><span>Born in Pretoria, South Africa</span></div>
+        <div class="stat" role="listitem"><strong>2002</strong><span>Founded SpaceX</span></div>
+        <div class="stat" role="listitem"><strong>2008</strong><span>Became CEO of Tesla</span></div>
+        <div class="stat" role="listitem"><strong>2020</strong><span>Crew Dragon carried astronauts to the ISS</span></div>
+      </div>
+
+      <h2 id="timeline">Timeline</h2>
+      <ol class="timeline">
+        <li><time datetime="1971-06-28">1971</time><div><h3>Early life</h3><p>Born on June 28, 1971 in Pretoria. He taught himself programming as a kid and sold the code for a small game called Blastar when he was about 12.</p></div></li>
+        <li><time datetime="1995">1995</time><div><h3>Zip2</h3><p>Co-founded the software company Zip2 with his brother Kimbal. It was later sold to Compaq.</p></div></li>
+        <li><time datetime="1999">1999</time><div><h3>X.com and PayPal</h3><p>Started X.com, an online bank. It merged with a competitor and became PayPal, which eBay acquired in 2002.</p></div></li>
+        <li><time datetime="2002">2002</time><div><h3>SpaceX</h3><p>Founded Space Exploration Technologies with the goal of making spaceflight cheaper through reusable rockets.</p></div></li>
+        <li><time datetime="2008">2008</time><div><h3>Orbit, and Tesla</h3><p>Falcon 1 became the first privately developed liquid-fuel rocket to reach orbit. The same year he became CEO of Tesla, which he had joined as an early investor and chairman.</p></div></li>
+        <li><time datetime="2015">2015</time><div><h3>A rocket lands itself</h3><p>A Falcon 9 first stage returned to Earth and landed upright for the first time, opening the door to reusing rockets.</p></div></li>
+        <li><time datetime="2020">2020</time><div><h3>Crew Dragon</h3><p>SpaceX launched NASA astronauts to the International Space Station from US soil, the first crewed orbital flight by a private company.</p></div></li>
+      </ol>
+
+      <blockquote>
+        "When something is important enough, you do it even if the odds are not in your favor."
+        <cite>Attributed to Elon Musk</cite>
+      </blockquote>
+
+      <p class="more">Read more on <a id="tribute-link" href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank" rel="noopener">Wikipedia</a>.</p>
+    </section>
+  </main>
+  <footer>
+    <p>A <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank" rel="noopener">freeCodeCamp Responsive Web Design</a> certification project, redesigned by <a href="https://github.com/khaledagina" target="_blank" rel="noopener">Khaled Agina</a>.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
