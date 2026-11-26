@@ -6,6 +6,10 @@ This is a **freeCodeCamp Responsive Web Design certification project**, redesign
 
 **Live demo:** https://khaledagina.github.io/fcc-tribute-page/
 
+## Preview
+
+![Tribute to Elon Musk page, desktop view](https://github.com/user-attachments/assets/ffda87e1-ebfd-448a-806c-71b9456ba77c)
+
 ## What changed in the redesign
 - Hero layout, key facts, scroll-revealed timeline and quote block
 - Written text and structure are my own
